@@ -1,0 +1,154 @@
+body{
+  background-color: black;
+  font-size: 22px;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img{
+  height: 50px;
+  padding-right: 10px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color:seashell;
+}
+
+.large{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+}
+
+
+.mission {
+  display: block;
+  width: 1200px;
+  height: 125px;
+  background-color: black;
+  margin: auto;
+}
+
+.misson {
+  display: flex;
+  color: seashell;
+  text-align: center;
+}
+
+.flex-container {
+  color: seashell;
+  text-align: center;
+  width: 1200px;
+}
+
+.teamonth {
+  width: 1000px;
+  color: seashell;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.blitzrow{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+}
+
+.threeinarow img {
+  display: inline-flex;
+  height: 200px;
+  padding: 10px;
+  width: 300;
+  text-align: center;
+}
+
+.threeinarow span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+.averow {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.twoinarow img {
+  display: inline-flex;
+  height: 200px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.twoinarow span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  opacity: 1
+}
+
+.location h2 {
+  padding-top: 50px;
+  padding-bottom: 15px
+  align-items: center;
+}
+
+.shops {
+  display: inline-block;
+  margin-left: 40px;
+  background-color: black;
+  width: 300px;
+}
+
+.cozybottom {
+  margin:0;
+  padding-top: 90px;
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  padding-top: 65px;
+  text-align: left;
+}
